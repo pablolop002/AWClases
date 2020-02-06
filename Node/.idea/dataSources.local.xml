@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="articulos@localhost" uuid="c2c755a6-631a-410d-8939-0d97432ffae7">
+      <database-info product="MariaDB" version="10.4.8-MariaDB" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="2.4.1" dbms="MARIADB" exact-version="10.4.8" exact-driver-version="2.4">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="contactos@localhost" uuid="811e304d-e46d-4835-bbeb-c5226589885a">
+      <database-info product="MariaDB" version="10.4.8-MariaDB" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="2.4.1" dbms="MARIADB" exact-version="10.4.8" exact-driver-version="2.4">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="node@localhost" uuid="fe658750-4947-4d73-b69b-f532c1b2aa0a">
+      <database-info product="MariaDB" version="10.4.8-MariaDB" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="2.4.1" dbms="MARIADB" exact-version="10.4.8" exact-driver-version="2.4">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="Facebluff" uuid="09f270bc-6096-484d-9204-11eae281cd47">
+      <database-info product="MariaDB" version="10.4.8-MariaDB" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="2.4.1" dbms="MARIADB" exact-version="10.4.8" exact-driver-version="2.4">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

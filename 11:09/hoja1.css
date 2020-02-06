@@ -1,0 +1,29 @@
+/** {
+    border: 1px solid yellow;
+}*/
+body {
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(255,255,255)) fixed;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header {
+    color: #fafafa;
+    background: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.content {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+strong {
+    color: #fafafa;
+    font-weight: bold;
+}
+.strong_header{
+    color: orange;
+}
+ul{
+    color: #fafafa;
+}

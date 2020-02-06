@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.content {
+    margin: 5%;
+    display: flex;
+    /*flex-direction:row-reverse;*/
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    flex-basis: 250px;
+    flex-grow: 1;
+    background: lightgray;
+    flex-direction: column;
+    /*flex-direction:column-reverse;*/
+    padding: 0;
+    margin: 0;
+
+}
+.contacto {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+   
+}
+
+.contacto:hover {
+    background: red;
+}
+.contacto:hover img {
+    cursor: pointer;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+img {
+    width: 60%;
+    border-radius: 50%;
+}
+
+.infocontainer {
+    display:flex;
+    flex-direction: column;
+    font-size: 1em;
+    align-self:center;
+}
+
+.infobox{
+    display: flex;
+    flex-basis: 150px;
+    flex-grow:1;
+    width: 150px;
+    margin-left:15px;
+    border-bottom: 1px solid gray;
+}
+
+.nombre{
+    font-weight: bold;
+}
+
+.conver {
+    display: flex;
+    flex-basis: 500px;
+    flex-grow: 2;
+    background: url(content/bla.png);
+    background-repeat: repeat;
+}
+
+.fondo{
+    background: turquoise;
+    opacity: 0.8;
+    width: 100%;
+}

@@ -1,0 +1,97 @@
+/** {
+    border: 1px solid yellow;
+}*/
+body {
+    font-family: sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: red;
+    color: lightgray;
+    padding: 15px;
+    text-align: center;
+}
+.enlace{
+    padding: 10px;
+    background: black;
+    color: gray;
+    text-decoration-line: none;
+}
+a.enlace:hover{
+    background: gray;
+    color: whitesmoke;
+}
+a.enlace:active{
+    background: whitesmoke;
+    color: black;
+}
+.content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+strong {
+    color: black;
+    font-weight: bold;
+}
+table {
+    border: 2px solid lightgray;
+}
+caption {
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+th {
+    background: lightgrey;
+}
+th, td, tr {
+    border: 1px whitesmoke;
+    padding: 5px;
+    text-align: center;
+}
+.desayuno {
+    background: goldenrod;
+}
+.comida {
+    background: lime;
+}
+.break {
+    background: orchid;
+}
+.tituloBreak {
+    background: darkorchid;
+}
+.tituloComida {
+    background: limegreen;
+}
+.tituloDes {
+    background: darkgoldenrod;
+}
+.rojo {
+    color: red;
+}
+.resaltado {
+    background: lightgray;
+}
+#tc {
+    font-style: italic;
+}
+img[src$="png"] {
+    background: black;
+}
+#tablaDeporte {
+    font-style: italic;
+    margin: white;
+}
+#tablaDeporte tr:nth-child(even) {
+    background: coral;
+}
+#tablaDeporte tr:nth-child(odd) {
+    background: cornflowerblue;
+}
+.white {
+    background: white;
+}

@@ -1,0 +1,29 @@
+html {
+    text-align: center;
+}
+.titulo {
+    color: grey;
+}
+
+.contenido {
+}
+
+.tabla {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid gray;
+    font-style: italic;
+}
+
+.fila,.columna, .encabezado {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fila {
+    background: yellow;
+}
+
+.encabezado {
+    background: lightgray;
+}

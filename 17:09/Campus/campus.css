@@ -1,0 +1,42 @@
+html, body {
+    background: #f4f4f4;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+div {
+    background: white;
+    padding: 30px;
+}
+a {
+    color: #1177D1;
+    padding: 10px;
+    text-decoration: none;
+}
+a.actual {
+    color: black;
+}
+ul {
+    list-style-type: none;
+}
+.titulo h1 {
+    font-weight: normal;
+}
+.titulo a {
+    padding: 0px;
+    margin: 10px;
+}
+.contenido a {
+    margin-bottom: 10px;
+}
+.contenido p {
+    margin-left: 10px;
+}
+a[href$="pdf"]::before {
+    content:url("pdf.png");
+}
+a[href^="https://docs.google.com"]::before {
+    content:url("tarea.png");
+}
+a[href^="https://cv4.ucm.es"]::before {
+    content:url("url.png");
+}

@@ -1,0 +1,33 @@
+html, body {
+    background: linear-gradient(lightblue, black) no-repeat fixed;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.red_social {
+    text-align: center;
+    border: 1px solid grey;
+    float: left;
+    margin: 4%;
+    padding: 0;
+    background: lightblue;
+    width: 25%;
+}
+.red_social p{
+    text-align: left;
+}
+.red_social img{
+    text-align: center;
+    margin: auto;
+    width: inherit;
+}
+img[src="instagram.png"] {
+    width: 50%;
+}
+
+.absoluto {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+}

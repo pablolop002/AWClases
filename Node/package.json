@@ -1,0 +1,17 @@
+{
+  "name": "Node",
+  "version": "1.0.0",
+  "description": "Ejercicios basicos de Node.js",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pablo López Veleiro",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mysql": "^2.17.1"
+  }
+}

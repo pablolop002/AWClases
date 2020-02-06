@@ -1,0 +1,68 @@
+/** {
+    border: 1px solid yellow;
+}*/
+body {
+    font-family: sans-serif;
+}
+.header {
+    background: red;
+    color: lightgray;
+    padding: 15px;
+    text-align: center;
+}
+.enlace{
+    padding: 10px;
+    background: black;
+    color: gray;
+    text-decoration-line: none;
+}
+strong {
+    color: black;
+    font-weight: bold;
+}
+table {
+    border: 2px solid lightgray;
+}
+caption {
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+th {
+    background: lightgrey;
+}
+th, td, tr {
+    border: 1px whitesmoke;
+    padding: 5px;
+    text-align: center;
+}
+.desayuno {
+    background: goldenrod;
+}
+.comida {
+    background: lime;
+}
+.break {
+    background: orchid;
+}
+.tituloBreak {
+    background: darkorchid;
+}
+.tituloComida {
+    background: limegreen;
+}
+.tituloDes {
+    background: darkgoldenrod;
+}
+.rojo {
+    color: red;
+}
+.resaltado {
+    background: lightgray;
+}
+#tc {
+    font-style: italic;
+}
+img[src$="png"] {
+    background: black;
+}

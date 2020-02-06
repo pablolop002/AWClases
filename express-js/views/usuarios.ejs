@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Lista de usuarios</title>
+    <meta charset="utf-8"> </head>
+    <link rel="stylesheet" type="text/css" href="css/usuarios.css">
+<body>
+<h1 class="titulo">
+    USUARIOS
+</h1>
+<div class="contenido">
+    <table class="tabla">
+    <tr>
+        <th class="encabezado">Nombre</th>
+        <th class="encabezado">Número</th>
+    </tr>
+        <% users.forEach(function(user) { %>
+            <tr>
+                <td class="fila"><%= user.nombre %></td>
+                <td class="fila"><%= user.numero %></td>
+            </tr>
+        <% }); %>
+    </table>
+</div>
+</body>
+</html>
